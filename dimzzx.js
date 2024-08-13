@@ -50,7 +50,7 @@ const virgamimage = fs.readFileSync ('./lib/image/virgam.jpg')
 
 
 // Hahahaha
-if (!dimzzxoffc.public) {
+if (!HUNTERoffcoffc.public) {
 if (!isCreator) return
 }
 
@@ -61,11 +61,11 @@ console.log(`User: ${pushname}\n Chat: ${command}\n Time: ${time}`)
 let rn = ['recording']
 let jd = rn[Math.floor(Math.random() * rn.length)];
 if (m.message) {
-dimzzxoffc.sendPresenceUpdate(jd, from)
+HUNTERoffc.sendPresenceUpdate(jd, from)
 }
 
 async function loading () {
-var dimzzxoffcloading = [
+var HUNTERoffcloading = [
 "《 █▒▒▒▒▒▒▒▒▒▒▒》10%",
 "《 ████▒▒▒▒▒▒▒▒》30%",
 "《 ███████▒▒▒▒▒》50%",
@@ -73,9 +73,9 @@ var dimzzxoffcloading = [
 "《 ████████████》100%",
 "Loading Selesai..."
 ]
-let { key } = await dimzzxoffc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
-for (let i = 0; i < dimzzxoffcloading.length; i++) {
-await dimzzxoffc.sendMessage(from, {text: dimzzxoffcloading[i], edit: key });
+let { key } = await HUNTERoffc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
+for (let i = 0; i < HUNTERoffcloading.length; i++) {
+await HUNTERoffc.sendMessage(from, {text: HUNTERoffcloading[i], edit: key });
 }
 }
 
@@ -115,8 +115,8 @@ dimzzxoffc.sendButton = async (jid, buttons, quoted, opts = {}) => {
       }, {
          quoted
       })
-      await dimzzxoffc.sendPresenceUpdate('composing', jid)
-      return dimzzxoffc.relayMessage(jid, message["message"], {
+      await HUNTERoffc.sendPresenceUpdate('composing', jid)
+      return HUNTERoffc.relayMessage(jid, message["message"], {
          messageId: message.key.id
       })
    }
@@ -149,7 +149,7 @@ const bugquoted = {
       }
     };
 const sendReact = async (emote) => {
-        dimzzxoffc.sendMessage(remoteJid, {
+        HUNTERoffc.sendMessage(remoteJid, {
           react: {
             text: emote,
             key: message.key,
@@ -159,7 +159,7 @@ const sendReact = async (emote) => {
 
     function sendMessageWithMentions(text, mentions = [], quotedMessage) {
     if (quotedMessage == null || quotedMessage == undefined || quotedMessage == false) {
-        return dimzzxoffc.sendMessage(
+        return HUNTERoffc.sendMessage(
             remoteJid,
             {
                 text: text,
@@ -168,7 +168,7 @@ const sendReact = async (emote) => {
             { quoted: message }
         );
     } else {
-        return dimzzxoffc.sendMessage(
+        return HUNTERoffc.sendMessage(
             remoteJid,
             {
                 text: text,
@@ -180,7 +180,7 @@ const sendReact = async (emote) => {
 }
 function sendMessageWithMentionsAlt(text, mentions = [], quotedMessage) {
     if (quotedMessage == null || quotedMessage == undefined || quotedMessage == false) {
-        return dimzzxoffc.sendMessage(
+        return HUNTERoffc.sendMessage(
             remoteJid,
             {
                 text: text,
@@ -902,11 +902,12 @@ hohe = [
 }
 ]
 ewe = `╭──「 *INFO BOTZ*  ]─⊱
-│⍨ *Botz Name : DimzzX Test*
-│⍨ *Creator* : *DimzzX Corf*
-│⍨ *Telegram* : *@Zennsukatobrut*
+│⍨ *Botz Name : BUGBOT*
+│⍨ *Creator* : *HUNTER*
+│⍨ *Telegram* : *@Admin*
 │⍨ *Version* : *V1.1.17*
 │⍨ *Prefix* : *Multi-Prefix*
+bot ni ya hunter contact him ndyo hii number yake +254722695736
 ╰────────────⊱
 
 ╭──「 *THIS MENU* ]─⊱
@@ -945,11 +946,12 @@ hohe = [
 }
 ]
 ewe = `╭──「 *INFO BOTZ*  ]─⊱
-│⍨ *Botz Name : DimzzX Test*
-│⍨ *Creator* : *DimzzX Corf*
-│⍨ *Telegram* : *@Zennsukatobrut*
+│⍨ *Botz Name : BUGBOT*
+│⍨ *Creator* : *HUNTER*
+│⍨ *Telegram* : *@Admin*
 │⍨ *Version* : *V1.1.17*
 │⍨ *Prefix* : *Multi-Prefix*
+bot ni ya hunter contact him ndyo hii number yake +254722695736
 ╰────────────⊱
 
 ╭──「 *THIS MENU* ]─⊱
@@ -982,11 +984,12 @@ hohe = [
 }
 ]
 ewe = `╭──「 *INFO BOTZ*  ]─⊱
-│⍨ *Botz Name : DimzzX Test*
-│⍨ *Creator* : *DimzzX Corf*
-│⍨ *Telegram* : *@Zennsukatobrut*
+│⍨ *Botz Name : BUGBOT*
+│⍨ *Creator* : *HUNTER*
+│⍨ *Telegram* : *@Admin*
 │⍨ *Version* : *V1.1.17*
 │⍨ *Prefix* : *Multi-Prefix*
+bot ni ya hunter contact him ndyo hii number yake +254722695736
 ╰────────────⊱
 
 ╭──「 *THIS MENU* ]─⊱
@@ -997,7 +1000,7 @@ ewe = `╭──「 *INFO BOTZ*  ]─⊱
 ╰────────────⊱`
 dimzzxoffc.sendButton(from,  hohe, m, {
 body: ewe,
-footer: `Powered by DimzzX`
+footer: `Powered by HUNTER`
 })
 break
 case 'doxxmenu':
@@ -1017,11 +1020,12 @@ hohe = [
 }
 ]
 ewe = `╭──「 *INFO BOTZ*  ]─⊱
-│⍨ *Botz Name : DimzzX Test*
-│⍨ *Creator* : *DimzzX Corf*
-│⍨ *Telegram* : *@Zennsukatobrut*
+│⍨ *Botz Name : BUGBOT*
+│⍨ *Creator* : *HUNTER*
+│⍨ *Telegram* : *@Admin*
 │⍨ *Version* : *V1.1.17*
 │⍨ *Prefix* : *Multi-Prefix*
+bot ni ya hunter contact him ndyo hii number yake +254722695736
 ╰────────────⊱
 
 ╭──「 *THIS MENU* ]─⊱
@@ -1050,11 +1054,12 @@ hohe = [
 }
 ]
 ewe = `╭──「 *INFO BOTZ*  ]─⊱
-│⍨ *Botz Name : DimzzX Test*
-│⍨ *Creator* : *DimzzX Corf*
-│⍨ *Telegram* : *@Zennsukatobrut*
+│⍨ *Botz Name : BUGBOT*
+│⍨ *Creator* : *HUNTER*
+│⍨ *Telegram* : *@Admin*
 │⍨ *Version* : *V1.1.17*
 │⍨ *Prefix* : *Multi-Prefix*
+bot ni ya hunter contact him ndyo hii number yake +254722695736
 ╰────────────⊱
 
 ╭──「 *THIS MENU* ]─⊱
@@ -1083,11 +1088,12 @@ hohe = [
 }
 ]
 ewe = `╭──「 *INFO BOTZ*  ]─⊱
-│⍨ *Botz Name : DimzzX Test*
-│⍨ *Creator* : *DimzzX Corf*
-│⍨ *Telegram* : *@Zennsukatobrut*
+│⍨ *Botz Name : BUGBOT*
+│⍨ *Creator* : *HUNTER*
+│⍨ *Telegram* : *@Admin*
 │⍨ *Version* : *V1.1.17*
 │⍨ *Prefix* : *Multi-Prefix*
+bot ni ya hunter contact him ndyo hii number yake +254722695736
 ╰────────────⊱
 ╭──「 *BUG CRASH* ]─⊱
 │⍨ crash1jam *+628xxx*
@@ -1152,11 +1158,12 @@ hohe = [
 }
 ]
 ewe = `╭──「 *INFO BOTZ*  ]─⊱
-│⍨ *Botz Name : DimzzX Test*
-│⍨ *Creator* : *DimzzX Corf*
-│⍨ *Telegram* : *@Zennsukatobrut*
+│⍨ *Botz Name : BUGBOT*
+│⍨ *Creator* : *HUNTER*
+│⍨ *Telegram* : *@Admin*
 │⍨ *Version* : *V1.1.17*
 │⍨ *Prefix* : *Multi-Prefix*
+bot ni ya hunter contact him ndyo hii number yake +254722695736
 ╰────────────⊱
  
 ┏❐   \`Bot Fitur\` 
@@ -1198,11 +1205,12 @@ hohe = [
 }
 ]
 ewe = `╭──「 *INFO BOTZ*  ]─⊱
-│⍨ *Botz Name : DimzzX Test*
-│⍨ *Creator* : *DimzzX Corf*
-│⍨ *Telegram* : *@Zennsukatobrut*
+│⍨ *Botz Name : BUGBOT*
+│⍨ *Creator* : *HUNTER*
+│⍨ *Telegram* : *@Admin*
 │⍨ *Version* : *V1.1.17*
 │⍨ *Prefix* : *Multi-Prefix*
+bot ni ya hunter contact him ndyo hii number yake +254722695736
 ╰────────────⊱
 
 ╭──「 *THIS MENU* ]─⊱
@@ -1255,6 +1263,7 @@ ewe = `╭──「 *INFO BOTZ*  ]─⊱
 │⍨ *Telegram* : *@Zennsukatobrut*
 │⍨ *Version* : *V1.1.17*
 │⍨ *Prefix* : *Multi-Prefix*
+bot ni ya hunter contact him ndyo hii number yake +254722695736
 ╰────────────⊱
  
 ╭──「 *THIS MENU* ]─⊱
@@ -1294,11 +1303,12 @@ hohe = [
 }
 ]
 ewe = `╭──「 *INFO BOTZ*  ]─⊱
-│⍨ *Botz Name : DimzzX Test*
-│⍨ *Creator* : *DimzzX Corf*
-│⍨ *Telegram* : *@Zennsukatobrut*
+│⍨ *Botz Name : BUGBOT*
+│⍨ *Creator* : *HUNTER*
+│⍨ *Telegram* : *@Admin*
 │⍨ *Version* : *V1.1.17*
-│⍨ *Prefix* : *Multi-Prefix*
+│⍨ *Prefix* : *Multi-Prefix
+bot ni ya hunter contact him ndyo hii number yake +254722695736
 ╰────────────⊱
 
 ┏❐   \`List Fitur Sticker\` 
@@ -1329,11 +1339,12 @@ hohe = [
 }
 ]
 ewe = `╭──「 *INFO BOTZ*  ]─⊱
-│⍨ *Botz Name : DimzzX Test*
-│⍨ *Creator* : *DimzzX Corf*
-│⍨ *Telegram* : *@Zennsukatobrut*
+│⍨ *Botz Name : BUGBOT*
+│⍨ *Creator* : *HUNTER*
+│⍨ *Telegram* : *@Admin*
 │⍨ *Version* : *V1.1.17*
 │⍨ *Prefix* : *Multi-Prefix*
+bot ni ya hunter contact him ndyo hii number yake +254722695736
 ╰────────────⊱
 
 ╭──「 *THIS MENU* ]─⊱
@@ -1369,11 +1380,12 @@ hohe = [
 }
 ]
 ewe = `╭──「 *INFO BOTZ*  ]─⊱
-│⍨ *Botz Name : DimzzX Test*
-│⍨ *Creator* : *DimzzX Corf*
-│⍨ *Telegram* : *@Zennsukatobrut*
+│⍨ *Botz Name : BUGBOT*
+│⍨ *Creator* : *HUNTER*
+│⍨ *Telegram* : *@Admin*
 │⍨ *Version* : *V1.1.17*
 │⍨ *Prefix* : *Multi-Prefix*
+bot ni ya hunter contact him ndyo hii number yake +254722695736
 ╰────────────⊱
 
 ╭──「 *THIS MENU* ]─⊱
@@ -1383,7 +1395,7 @@ ewe = `╭──「 *INFO BOTZ*  ]─⊱
 ╰────────────⊱`
 dimzzxoffc.sendButton(from,  hohe, m, {
 body: ewe,
-footer: `dimzzxoffc`
+footer: `HUNTERoffc`
 })
 break
 // CASE LAINNYA
@@ -1395,7 +1407,7 @@ var requestPaymentMessage = generateWAMessageFromContent(from, proto.Message.fro
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendeqtextMessage": {
-"text": `𓁿 •dimzzxoffc OFFICIAL• 𓁿`,
+"text": `𓁿 •HUNTERoffc OFFICIAL• 𓁿`,
 }
 }}), { userJid: from, quoted: m})
 dimzzxoffc.relayMessage(from, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -1437,9 +1449,9 @@ await loading()
  dimzzxoffcganteng = await getBuffer(`https://github.com/Sammysaam/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
 await dimzzxoffc.sendMessage(from, { audio: dimzzxoffcganteng, mimetype: 'audio/mp4', ptt: true, contextInfo:{  externalAdReply: { showAdAttribution: true,
 mediaType:  1,
-mediaUrl: 'https://wa.me/6287729157529',
+mediaUrl: 'https://wa.me/254722695736',
 title: `dimzzxoffc`,
-sourceUrl: `https://wa.me/6287729157529`, 
+sourceUrl: `https://wa.me/254722695736`, 
 thumbnail: imagevirtex
 }
 }})
@@ -1588,13 +1600,13 @@ image: imagevirtex,
 caption: `*Hallo ${pushname}*
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 *INFO CREATOR AND BOT*
-Creator: dimzzxoffc
+Creator: HUNTER
 Youtube: https://www.youtube.com/@SkyzENZO
-Base: SkyzOfficial
+Base: HUNTER
 Versi Bot: V5
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
-*SCRIPT DEVELOPED BY dimzzxoffc OFFICIAL*`
+*SCRIPT DEVELOPED BY HUNTER OFFICIAL*`
 }
 dimzzxoffc.sendMessage(from, infobot)
 break
