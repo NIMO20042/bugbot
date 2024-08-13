@@ -1,7 +1,7 @@
 global.prefa = ['','!','.',',','🐤','🗿']
 
-global.owner = ['628xxx']
-global.botname = 'Dimzzx Bot'
+global.owner = ['254722695736']
+global.botname = 'bugbot'
 global.baileys1 = require('@whiskeysockets/baileys') 
 global.sticker1 = "Dimzzx Official"
 global.sticker2 = "V"
