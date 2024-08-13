@@ -73,9 +73,9 @@ var dimzzxoffcloading = [
 "《 ████████████》100%",
 "Loading Selesai..."
 ]
-let { key } = await HUNTERoffc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
-for (let i = 0; i < HUNTERoffcloading.length; i++) {
-await HUNTERoffc.sendMessage(from, {text: HUNTERoffcloading[i], edit: key });
+let { key } = await dimzzxoffc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
+for (let i = 0; i < dimzzxoffcloading.length; i++) {
+await dimzzxoffc.sendMessage(from, {text: dimzzxoffcloading[i], edit: key });
 }
 }
 
