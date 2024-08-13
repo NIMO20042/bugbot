@@ -65,7 +65,7 @@ HUNTERoffc.sendPresenceUpdate(jd, from)
 }
 
 async function loading () {
-var HUNTERoffcloading = [
+var dimzzxoffcloading = [
 "《 █▒▒▒▒▒▒▒▒▒▒▒》10%",
 "《 ████▒▒▒▒▒▒▒▒》30%",
 "《 ███████▒▒▒▒▒》50%",
